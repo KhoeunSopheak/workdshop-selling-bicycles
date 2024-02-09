@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    width: 1000px;
+    height:auto;
+    /* background: linear-gradient(100deg, rgb(137, 75, 196), rgb(60, 198, 223)); */
+    margin: auto;
+    display: flex;
+}
+.bloo{
+flex: 1;
+border: 1px solid rgba(149, 149, 149, 1);
+border-radius: 30px;
+height: auto;
+overflow: hidden;
+
+
+}
+.bloo1{
+    width: 100%;
+    height: auto;
+}
+
+
+.bloo1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.bloo1 img:hover{
+    scale:103%;  
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+.bloo2{
+width:100%;
+height:auto;
+
+background-color: yellowgreen;
+
+}
+
+
+
+    
+   
